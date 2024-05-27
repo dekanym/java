@@ -102,9 +102,7 @@ public class DataStructuresDolgozat {
         String orszag = capitals.get(fovaros);
         if (orszag != null) {
             System.out.println(fovaros + " fővárosa: " + orszag);
-        } else {
-            System.out.println("Nem található információ " + fovaros + " fővárosáról.");
-        }
+        } 
     }
 
     public static void ujFovarosOrszagPar(String fovaros, String orszag) {
@@ -168,4 +166,3 @@ public class DataStructuresDolgozat {
 
 
 }
-
